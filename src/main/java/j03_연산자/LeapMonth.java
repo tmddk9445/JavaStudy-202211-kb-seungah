@@ -30,9 +30,5 @@ public class LeapMonth {
         System.out.println(year + ": " + result);
         System.out.println(year2 + ": " + result2);
         System.out.println(result3);
-
-
-
-
     }
 }
