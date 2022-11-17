@@ -44,7 +44,7 @@ public class Method1 {
     } // 좋은 코드!!!!!!!!!!!!!!!!!!!!!!
 
     public static void main(String[] args) {
-        method1(); // 메소드 호출
+        method1(); // 메소드 호출 - 담을 수 있는 변수가 없다. (void이기 때문에 - void는 리턴이 없다.)
         System.out.println("메소드1 호출 후 출력");
         method2(10);
         int result1 = method3(3000, 7000);
