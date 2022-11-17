@@ -1,5 +1,5 @@
 package j06_반복;
-
+// 홀수 구하기
 public class Continue2 {
     public static void main(String[] args) {
 
@@ -7,7 +7,7 @@ public class Continue2 {
             if(i % 2 == 0) {
                 continue;
             }
-            System.out.println("i");
+            System.out.println(i);
         }
     }
 }
