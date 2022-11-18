@@ -15,7 +15,6 @@ public class PhoneMain {
         System.out.println(galaxyS22); // 해당 값의 주소값이 출력된다.
 
         iPhone14.company = "Apple"; // iPhone14의 주소를 찾아가라.company를 찾아가라 = Apple을 넣어라
-        iPhone14.model = "iPhone14";
 //        galaxyS22.company = "SAMSUNG";
 
         iPhone14.printPhoneCompany();
