@@ -1,6 +1,10 @@
 package j10_배열;
 
 public class Array4 {
+            /*
+        1. 두 배열에서 중복된 값 중 최소값
+        2. 두 배열에서 중복되지 않은 값 중 최대값
+         */
 
     public static int[] add(int[] array, int value) { // add배열 - 새로운 배열을 생성
         int[] resultArray = new int[array.length + 1]; // 기존의 배열과 동일하게 옮긴 뒤 마지막 인덱스에 마지막배열의 크기가 들어간다.
@@ -8,11 +12,11 @@ public class Array4 {
 
             resultArray[i] = array[i];
         }
-        resultArray[array.length] = value;
+        resultArray[array.length] = value; // 배열공간에 값을 넣고 완성된 배열을 리턴.
         return resultArray;
     }
 
-    public static int[] getDuplicateArray(int[] array1, int[] array2) { // 중복된 Array를 만드는 식
+    public static int[] getDuplicateArray(int[] array1, int[] array2) { // 중복된 값 Array를 만드는 식
         int[] resultArray = new int[0]; // 배열의 공간이 비어있다.
 
         for (int i = 0; i < array1.length; i++) {
@@ -96,9 +100,5 @@ public class Array4 {
         System.out.println("중복된 값 중 최소값 : " + minNumberInDuplicateArray);
         System.out.println("중복되지 않은 값 중 최대값 : " + maxNumberInNonDuplicateArray);
 
-        /*
-        1. 두 배열에서 중복된 값 중 최소값
-        2. 두 배열에서 중복되지 않은 값 중 최대값
-         */
     }
 }

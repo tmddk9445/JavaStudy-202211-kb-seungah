@@ -17,6 +17,18 @@ public class Student {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getGender() { // 변수값을 반환하는 것이기 때문에 return 필수!!
+        return gender;
+    }
+
     public void printInfo() {
         System.out.println("Name: " + name);
         System.out.println("Gender: " + gender);

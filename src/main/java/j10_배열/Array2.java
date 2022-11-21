@@ -17,7 +17,7 @@ public class Array2 {
         이름4 : 문승주
         이름5 : 장건녕
          */
-        String[] names = new String[10]; // 배열수가 실제 배열의 수보다 크게 입력될 경우 null로 출력된다.
+        String[] names = new String[6]; // 배열수가 실제 배열의 수보다 크게 입력될 경우 null로 출력된다.
         names[0] = "임지현";
         names[1] = "신경수";
         names[2] = "고희주";
