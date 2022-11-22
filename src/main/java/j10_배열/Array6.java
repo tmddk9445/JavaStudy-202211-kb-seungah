@@ -3,7 +3,7 @@ package j10_배열;
 public class Array6 {
 
     public static void main(String[] args) {
-        int [] a = new int[] {1,2,3,4,5}; // new는 메모리 주소를 생성하는 것
+        int [] a = new int[] {1, 2, 3, 4, 5}; // new는 메모리 주소를 생성하는 것
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + (i != a.length - 1 ? ", " : "\n"));
         }
