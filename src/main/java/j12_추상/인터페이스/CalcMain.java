@@ -8,7 +8,7 @@ public class CalcMain {
         int result1 = 0;
         int result2 = 0;
 
-        Calculator calculator = new Tax(); // 인터페이스에 Tax를 넣어서 Tax를 실행 // 업캐스팅
+        Calculator calculator = new Tax(); // Calculator에 Tax를 입력, 인터페이스에 Tax를 넣어서 Tax를 실행 // 업캐스팅
         result1 = calculator.calc(taxPay); // 연말정산하는 것
         if (result1 == 0) {
             System.out.println("오류 : " + Calculator.ERROR_CODE); // Calculator. >> 생성된 객체가 아니라 클래스 이름이다.
@@ -16,7 +16,9 @@ public class CalcMain {
             System.out.println("result1 => " + result1);
         }
 
-        calculator = new Salary();
+        calculator = new Salary(); // 변수 선언은 한번만!! 위의 선언에 대입한 것
+//        int a = 1;
+//        a = 2;
         result2 = calculator.calc(salaryPay);
         if (result2 == 0) {
             System.out.println("오류 : " + Calculator.ERROR_CODE);

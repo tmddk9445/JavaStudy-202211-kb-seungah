@@ -15,7 +15,7 @@ public abstract class Animal { // 추상메소드를 필요로 하지는 않는�
     public Animal(String kind) { // 생성자도 정의 가능
         System.out.println(kind + "이(가) 생성되었습니다.");
     } // (기본생성자를)오버로딩 : 이름은 같지만! 메소드, 생성자 안에 매개변수를 다르게 하는 것
-    // 생략되어있던 기본생성자를 사용할 수 없게 된다.
+    // 생략되어있던 기본생성자를 사용할 수 없게 된다. (직접 정의를 해주어야한다.)
 
     // abstract : 추상메소드
     public abstract void move();// 기능 사용X(틀) - 오버라이드의 용도로 사용한다. // 정의할 필요가 없다.
