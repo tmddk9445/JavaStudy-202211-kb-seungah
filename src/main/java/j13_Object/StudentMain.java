@@ -56,7 +56,7 @@ public class StudentMain {
 
         Method[] methods = c.getDeclaredMethods(); // 이 클래스의 변수의 이름
         for (int i = 0; i < methods.length; i++) {
-            System.out.println(methods[i].getName());
+            System.out.println(methods[i].getName()); // 클래스명은 정확히 패키지이름을 포함(풀네임)
         }
 
     }
