@@ -1,5 +1,9 @@
 package j13_Object;
-
+    /**
+     *  mvn : maven
+     *     lombok
+     *     pom.xml에 설치
+     */
 import lombok.*;
 
 import java.util.Objects;
@@ -21,11 +25,11 @@ public class Entity {
      2. 동작을 하기위한 (로직들을 정리한 객체)기능을 담은 객체 : Service(Business) 객체
      ex) Objects 클래스
      */
-    /*
-    mvn : maven
-    lombok
-    pom.xml에 설치
-     */
+
+//    @Override
+//    public boolean equals(Object obj) {
+//        return super.equals(obj);
+//    }
 
     private String name;
     private int age;
@@ -35,8 +39,6 @@ public class Entity {
         return this.getClass() == Entity.class;
         // this. : 생성된 클래스 (클래스가 생성된 클래스의 주소)
         // 둘 다 Entity클래스이다. (생성하지 않은 클래스의 주소)
+
     }
-
-
-
 }
