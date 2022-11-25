@@ -11,8 +11,6 @@ public class ScannerMain {
 
 //        ScannerSingleton scannerSingleton = new ScannerSingleton(); 접근지정자가 private이다.
 
-
-
         s1.inputName();
         s2.inputAge();
     }

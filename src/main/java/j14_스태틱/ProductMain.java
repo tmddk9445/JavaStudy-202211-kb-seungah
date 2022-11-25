@@ -6,6 +6,7 @@ public class ProductMain {
 
     public void show(){ // class 안에 담겨 있는 메소드 이기 때문에 생성없이 사용 가능 (static 할당)
         System.out.println("메인메소드에서 호출"); // static이 없으면 show();사용불가 - 현재 생성했기 때문에 사용 가능하다.
+        System.out.println("---");
     }
 
     public static void main(String[] args) { // public 어디서든 접근 가능 + static 생성없이 사용가능
