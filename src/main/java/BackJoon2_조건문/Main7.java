@@ -1,4 +1,4 @@
-package BackJoon2;
+package BackJoon2_조건문;
 
 import java.util.Scanner;
 

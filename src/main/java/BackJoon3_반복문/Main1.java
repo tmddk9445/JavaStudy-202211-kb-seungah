@@ -1,4 +1,4 @@
-package BackJoon3;
+package BackJoon3_반복문;
 
 import java.util.Scanner;
 
