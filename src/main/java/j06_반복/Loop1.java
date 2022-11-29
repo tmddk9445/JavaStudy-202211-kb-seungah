@@ -40,7 +40,7 @@ public class Loop1 {
             System.out.print(n - i + 10); // 20 - i
             if (i < n - 1) {
                 System.out.print(", ");
-                // 10 부터 19 까지 10번 내림차순 반복해라
+                // 20 부터 19 까지 10번 내림차순 반복해라
             }
         }
         System.out.println();

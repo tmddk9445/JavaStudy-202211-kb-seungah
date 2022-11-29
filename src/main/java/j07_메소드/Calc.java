@@ -33,6 +33,7 @@ public class Calc {
         int a = 10;
         int b = 2;
 
+
         int addResult = add(a, b);
         int subResult = sub(a, b);
         int mulResult = mul(a, b);

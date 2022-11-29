@@ -3,6 +3,7 @@ package j06_반복;
 import java.util.Scanner;
 
 public class Loop5 {
+
     public static boolean selectionConditions(String select, int a, int b) {
         boolean loopFlag = true;
 

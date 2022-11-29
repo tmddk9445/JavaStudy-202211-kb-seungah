@@ -11,6 +11,7 @@ public class StudentMain {
 
         System.out.println(students[0]); // 주소값 출력
         System.out.println(students[0].getName()); // 이름 출력
+        System.out.println(students[1].getYear()); // 학년 출력
 
         for (int i = 0; i < students.length; i++) {
             System.out.println("이름 :  " + students[i].getName() + ", 학년 : " + students[i].getYear());

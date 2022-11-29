@@ -28,6 +28,7 @@ public class Loop4 {
                     System.out.println("q. 프로그램 종료");
                     System.out.print("메뉴선택 : ");
                     select = scanner.nextLine();
+
                     if (select.equals("1")) {
 
                     } else if (select.equals("2")) {
