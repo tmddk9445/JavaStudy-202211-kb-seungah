@@ -1,7 +1,9 @@
 package j16_컬렉션.map;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class StringMap {
 	
@@ -23,6 +25,36 @@ public class StringMap {
 		
 		language.replace("java", "자바2", "자바3"); // set
 		System.out.println(language.get("java"));
+		
+		language.remove("phthon2");
+		System.out.println(language);
+		
+		
+		language.forEach((k, v) -> {
+			System.out.println("key : " + k);
+			System.out.println("value : " + v);
+		});
+		
+		for(Entry<String, String> entry : language.entrySet()) {
+			System.out.println("key : " + entry.getKey());
+			System.out.println("value : " + entry.getValue());
+		}
+		System.out.println();
+		
+		Iterator<String> ir = language.keySet().iterator();
+		
+		while(ir.hasNext()) {
+			String key = ir.next();
+			System.out.println("key : " + key);
+			System.out.println("value : " + language.get(key));
+		}
 	}
-
 }
+
+
+
+
+
+
+
+
