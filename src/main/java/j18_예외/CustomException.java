@@ -14,7 +14,7 @@ public class CustomException extends RuntimeException {
 		super();
 	}
 
-	public CustomException(String message) {
+	public CustomException(String message) { 
 		super(message);
 	}
 
