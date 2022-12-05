@@ -1,8 +1,11 @@
 package j20_함수형인터페이스;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Objects;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 import java.util.function.Consumer;
 
 public class Main3 {
@@ -62,6 +65,52 @@ public class Main3 {
 //		
 //		cons.accept("a"); // Consumer안에 있는 하나의 메소드를 accept에 받아놓았다. (재정의하였다.)
 
+		Map<String, String> subject = new HashMap<>();
+		
+		subject.put("java", "자바");
+		subject.put("python", "파이썬");
+		subject.put("javascript", "자바스크립트");
+		subject.put("C", "씨언어");
+		subject.put("Node.js", "노드제이에스"); 
+		
+//		Map에서 반복을 돌릴 수 있는 방법 (Map에서의 forEach)
+		
+		// keySet 자체가 setter이다. 
+		
+		Set<String> keySet = subject.keySet();
+		keySet.forEach(key -> {
+			System.out.println(subject.get(key));
+		});
+		
+		// set의 entry사용
+		
+		Set<Entry<String, String>> entrySet = subject.entrySet();
+		entrySet.forEach(entry -> {
+			System.out.println(entry.getKey() + " : " + entry.getValue());
+		});
+		
+		subject.forEach((key,value) -> {
+			System.out.println(key + " : " + value);			 
+		});
+		
+		
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
