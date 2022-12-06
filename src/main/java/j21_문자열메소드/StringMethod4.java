@@ -23,5 +23,6 @@ public class StringMethod4 {
 			}
 			// GUEST는 접미어가 없기 때문에 출력되지 않는다.
 		});
-	}
+	}	
+	
 }

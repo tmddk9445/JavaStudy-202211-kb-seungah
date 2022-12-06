@@ -65,6 +65,7 @@ public class Main3 {
 //		
 //		cons.accept("a"); // Consumer안에 있는 하나의 메소드를 accept에 받아놓았다. (재정의하였다.)
 
+		System.out.println();
 		Map<String, String> subject = new HashMap<>();
 		
 		subject.put("java", "자바");
