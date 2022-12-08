@@ -1,4 +1,4 @@
-package j10_배열;
+ package j10_배열;
 
 public class Array4 {
             /*
@@ -8,7 +8,7 @@ public class Array4 {
 
     public static int[] add(int[] array, int value) { // add배열 - 새로운 배열을 생성
         int[] resultArray = new int[array.length + 1]; // 기존의 배열과 동일하게 옮긴 뒤 마지막 인덱스에 마지막배열의 크기가 들어간다.
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) { // 새로운 공간을 만들어서 새로운 값을 resultArray에 넣겠다.
             resultArray[i] = array[i];
         }
         resultArray[array.length] = value; // 배열공간에 값을 넣고 완성된 배열을 리턴.
@@ -87,7 +87,7 @@ public class Array4 {
 
     public static void main(String[] args) {
 
-        int[] nums1 = new int[]{1 , 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] nums1 = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int[] nums2 = new int[]{6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
 
         int[] duplicateArray = getDuplicateArray(nums1, nums2);
@@ -99,6 +99,5 @@ public class Array4 {
 
         System.out.println("중복된 값 중 최소값 : " + minNumberInDuplicateArray);
         System.out.println("중복되지 않은 값 중 최대값 : " + maxNumberInNonDuplicateArray);
-
     }
 }

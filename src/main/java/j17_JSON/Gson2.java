@@ -14,7 +14,7 @@ public class Gson2 {
 //				.email("junil1218@gmail.com") // 주석 처리할 경우 : null은 형변환이 일어나지 않는다.
 				.build();
 		
-		System.out.println(user);
+//		System.out.println(user);
 		
 		Gson gson = new GsonBuilder()
 				.setPrettyPrinting()
